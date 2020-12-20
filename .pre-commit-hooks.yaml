@@ -1,3 +1,9 @@
+- id: walrus-grep
+  name: walrus-grep
+  description: Warn about assignment expressions
+  entry: ":="
+  language: pygrep
+  type: [python]
 - id: walrus-ast
   name: walrus-ast
   description: Warn about assignment expressions
