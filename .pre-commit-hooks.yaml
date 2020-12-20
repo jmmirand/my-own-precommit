@@ -16,4 +16,7 @@
   entry: walrus-opportunity
   language: python
   types: [python]
-
+- id: md-toc
+  name: md-toc
+  language: script
+  entry: echo.sh
