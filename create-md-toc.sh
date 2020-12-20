@@ -5,7 +5,7 @@ for filepath in "$@"
 do
     echo "Username - $i: $filepath";
     i=$((i + 1));
-    FILE_LIST="$filepath" 
+    FILE_LIST="$FILE_LIST $filepath" 
 done
 
 echo "LISTA : $FILE_LIST"
