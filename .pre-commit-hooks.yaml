@@ -20,4 +20,5 @@
   name: md-toc
   language: script
   files: README.md
+  pass_filenames: false
   entry: echo.sh
