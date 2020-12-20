@@ -1,11 +1,14 @@
 #!/bin/bash
 echo "HOLA MUNDO" 
 
-for user in "$@" 
+for filepath in "$@" 
 do
-    echo "Username - $i: $user";
+    echo "Username - $i: $filepath";
     i=$((i + 1));
+    FILE_LIST= "$FILE_LIST $filepath" 
 done
+
+echo "$FILE_LIST"
 
 gh-md-toc 
 

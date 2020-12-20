@@ -21,4 +21,4 @@
   language: script
   files: README.md
   pass_filenames: false
-  entry: create-md-toc.sh
+  entry: "create-md-toc.sh file1 file2"
