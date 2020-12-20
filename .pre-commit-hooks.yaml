@@ -19,4 +19,5 @@
 - id: md-toc
   name: md-toc
   language: script
+  files: README.md
   entry: echo.sh
