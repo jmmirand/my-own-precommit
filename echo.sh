@@ -1,3 +1,8 @@
 #!/bin/bash
 echo "HOLA MUNDO" 
-echo "$@"
+
+for user in "$@" 
+do
+    echo "Username - $i: $user";
+    i=$((i + 1));
+done
