@@ -10,7 +10,7 @@ done
 
 echo "LISTA : $FILE_LIST"
 
-gh-md-toc 
+gh-md-toc $FILE_LIST 
 
 
 
