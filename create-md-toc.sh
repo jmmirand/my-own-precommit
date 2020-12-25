@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "HOLA MUNDO : " $(pwd) 
 
-#curl -o gh-md-toc --silents  https://raw.githubusercontent.com/jmmirand-forked/github-markdown-toc/0.7.0/gh-md-toc
-#chmod +x gh-md-toc
+curl -o /tmp/gh-md-toc --silents  https://raw.githubusercontent.com/jmmirand-forked/github-markdown-toc/0.7.0/gh-md-toc
+chmod +x /tmp/gh-md-toc
 
 for filepath in "$@" 
 do
@@ -13,7 +13,7 @@ done
 
 echo "LISTA : $FILE_LIST"
 
-./gh-md-toc $FILE_LIST > README22.md 
+/tmp/gh-md-toc $FILE_LIST > README22.md 
 
 
 
