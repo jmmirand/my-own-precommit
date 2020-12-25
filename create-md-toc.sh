@@ -1,6 +1,9 @@
 #!/bin/bash
 echo "HOLA MUNDO" 
 
+#curl -o gh-md-toc --silents  https://raw.githubusercontent.com/jmmirand-forked/github-markdown-toc/0.7.0/gh-md-toc
+#chmod +x gh-md-toc
+
 for filepath in "$@" 
 do
     echo "Username - $i: $filepath";
@@ -10,7 +13,7 @@ done
 
 echo "LISTA : $FILE_LIST"
 
-gh-md-toc $FILE_LIST > README22.md 
+./gh-md-toc $FILE_LIST > README22.md 
 
 
 
