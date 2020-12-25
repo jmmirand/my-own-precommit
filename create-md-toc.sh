@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "HOLA MUNDO" 
+echo "HOLA MUNDO : " $(pwd) 
 
 #curl -o gh-md-toc --silents  https://raw.githubusercontent.com/jmmirand-forked/github-markdown-toc/0.7.0/gh-md-toc
 #chmod +x gh-md-toc
