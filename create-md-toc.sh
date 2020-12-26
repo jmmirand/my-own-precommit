@@ -1,7 +1,5 @@
 #!/bin/bash
 function multi_toc_readme(){
-  echo "Starting multi_toc_readme..."
-
   local toc=$(gh-md-toc no_backup $(ls -d ./doc/*))
   local readme_path="./README.md"
   local ts="<\!--ts-->"
@@ -38,7 +36,4 @@ done
 
 multi_toc_readme
 
-# toc=$(gh-md-toc $(ls -d ./doc/*))
-# templ=$(<README-TEMPLATE.md)
-# value=$(gh-md-toc $(ls -d ./doc/*))
-# echo "${templ//<!-- mytoc -->/$value}" > README.md
+exit 0
