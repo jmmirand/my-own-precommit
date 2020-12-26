@@ -16,9 +16,8 @@
   entry: walrus-opportunity
   language: python
   types: [python]
-- id: md-toc
-  name: md-toc
+- id: jmms-gh-md-toc
+  name: jmms-gh-md-toc
   language: script
-  files: README.md
   pass_filenames: false
   entry: create-md-toc.sh
