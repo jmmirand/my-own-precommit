@@ -7,7 +7,7 @@ function multi_toc_readme(){
   local dt=`date +'%F_%H%M%S'`
   local ext=".orig.${dt}"
   local toc_path="${readme_path}.toc.${dt}"
-  local toc_footer="<!-- Added by: `whoami`, at: `date` -->"
+  local toc_footer="<!-- Added by: `whoami`, at: date +%d-%m-%Y-->"
 
   # clear old TOC
   sed -i${ext} "/${ts}/,/${te}/{//!d;}" "$readme_path"
